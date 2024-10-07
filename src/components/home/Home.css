@@ -1,0 +1,21 @@
+.lead{
+    font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.placeholder-black::placeholder{
+    color: black !important;
+}
+
+.hero-section{
+    height: 80vh;
+}
+
+.hero-heading{
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home-about-img{
+    border-radius: 56px;
+}

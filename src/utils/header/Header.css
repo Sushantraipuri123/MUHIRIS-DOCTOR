@@ -1,0 +1,40 @@
+
+.navbar-container{
+    height: 80px;
+}
+
+
+.brand{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.nav-container{
+    width: 466px;
+justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    .bg-navbar{
+        background: #ECF6FF;
+        height: auto;
+    }
+    
+}
+@media (max-width: 576px) {
+    .navbar-collapse {
+      background-color: white;
+      margin-top: 12px;
+      margin-left: -9px;
+      padding-left: 26px;
+      padding-bottom: 25px;
+      z-index: 100001;
+    }
+  }
+  
+
+.outline-none {
+    outline: none;
+  }

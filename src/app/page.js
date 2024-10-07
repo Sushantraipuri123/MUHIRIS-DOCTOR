@@ -1,10 +1,17 @@
+import HeroSection from "@/components/home/HeroSection";
+import HomeAbout from "@/components/home/HomeAbout";
+import Specialty from "@/components/home/Specialty";
 import  "bootstrap/dist/css/bootstrap.min.css"
 
 export default function Home() {
   return (
     <>
-   <h1 className="text-center bg-info py-3">Testing bootstrap</h1>
-  
+    
+      <HeroSection/>
+   <div className="container my-5">
+    <HomeAbout/>
+   </div>
+   <Specialty/>
     </>
   );
 }
