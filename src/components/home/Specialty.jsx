@@ -11,6 +11,9 @@ function Specialty() {
             </p>
            </div>
         </div>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam vero eveniet nobis.
+        </p>
     </section>
   )
 }
