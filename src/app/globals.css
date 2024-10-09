@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   --bg-theme: #ECF6FF;
   --theme-text-color: #234A6B;
   --grey-color: #757575;
+  --bg-light--theme:#F9FCFF;
 }
 .text-blue{
   color: var(--color-blue);
@@ -86,11 +87,19 @@ line-height: normal;
   background: var(--bg-theme) ;
 }
 
+.bg-light-theme{
+  background: var(--bg-light--theme);
+}
+
+
 .f-56{
   font-size: 56.8px;
 }
 .f-16{
   font-size: 16px;
+}
+.f-19{
+  font-size: 19px;
 }
 .rounded-12{
   border-radius: 12px !important;
