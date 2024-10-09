@@ -122,3 +122,9 @@ background: var(--color-blue);
 .text-grey{
   color: var(--grey-color);
 }
+
+@media (max-width: 768px) { /* Bootstrap's 'md' breakpoint */
+  .custom-flex-wrap {
+    flex-wrap: nowrap !important; /* Prevent wrapping */
+  }
+}
